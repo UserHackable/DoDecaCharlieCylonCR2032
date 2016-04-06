@@ -102,6 +102,7 @@ README.md: Intro.md $(mds)
 
 clean:
 	rm -f *.GTL *.GBL *.GTO *.GTP *.GBO *.GTS *.GBS *.GML *.TXT *.gpi *.dri
+	rm -f *.?#?
 
 %.md: %.png %_back.png %.GTL
 	echo "## $* \n\n" >  $@

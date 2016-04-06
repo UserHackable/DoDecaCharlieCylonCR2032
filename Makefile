@@ -101,7 +101,7 @@ README.md: Intro.md $(mds)
 	convert $@ -alpha set -fill none -draw 'matte 0,0 floodfill' -flop -trim +repage $@
 
 clean:
-	rm -f *.zip *.GTL *.GBL *.GTO *.GTP *.GBO *.GTS *.GBS *.GML *.TXT *.gpi *.png *.dri
+	rm -f *.GTL *.GBL *.GTO *.GTP *.GBO *.GTS *.GBS *.GML *.TXT *.gpi *.dri
 
 %.md: %.png %_back.png %.GTL
 	echo "## $* \n\n" >  $@

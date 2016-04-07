@@ -816,12 +816,10 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.16" y1="12.3825" x2="12.065" y2="14.2875" width="0.8128" layer="16"/>
 <wire x1="12.065" y1="14.2875" x2="12.065" y2="15.875" width="0.8128" layer="16"/>
 <wire x1="12.065" y1="15.875" x2="9.525" y2="18.415" width="0.8128" layer="16"/>
-<wire x1="9.525" y1="18.415" x2="9.525" y2="20.6375" width="0.8128" layer="16"/>
-<wire x1="9.525" y1="20.6375" x2="9.525" y2="23.0505" width="0.8128" layer="16"/>
+<wire x1="9.525" y1="18.415" x2="9.525" y2="23.0505" width="0.8128" layer="16"/>
 <wire x1="9.525" y1="23.0505" x2="9.652" y2="23.1775" width="0.8128" layer="16"/>
-<wire x1="5.08" y1="19.05" x2="6.985" y2="20.955" width="0.8128" layer="16"/>
-<wire x1="6.985" y1="20.955" x2="9.2075" y2="20.955" width="0.8128" layer="16"/>
-<wire x1="9.2075" y1="20.955" x2="9.525" y2="20.6375" width="0.8128" layer="16"/>
+<wire x1="5.08" y1="19.05" x2="9.2075" y2="23.1775" width="0.8128" layer="1"/>
+<wire x1="9.2075" y1="23.1775" x2="9.652" y2="23.1775" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$3" pad="+1"/>

@@ -2698,7 +2698,7 @@ Through-hole photocell (http://www.sparkfun.com/products/9088)&lt;br&gt;
 <instance part="R1" gate="G$1" x="78.74" y="40.64" rot="R270"/>
 <instance part="GND4" gate="1" x="78.74" y="10.16"/>
 <instance part="R2" gate="G$1" x="78.74" y="22.86" rot="R90"/>
-<instance part="U$1" gate="G$1" x="124.46" y="25.4"/>
+<instance part="U$1" gate="G$1" x="121.92" y="25.4"/>
 </instances>
 <busses>
 </busses>
